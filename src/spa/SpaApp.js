@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Users from "./pages/Users";
 import UserProfile from "./pages/UserProfile";
 import Dynamic from "./pages/Dynamic";
+import LoginNew from "./pages/LoginNew";
 
 const SpaApp = () => {
   return (
@@ -14,7 +15,7 @@ const SpaApp = () => {
       <h2>SPA project by Sai</h2>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="login" element={<Login />} />
+        <Route path="login" element={<LoginNew />} />
         <Route path="about" element={<About />} />
         <Route path="users" element={<Users />}>
           <Route path=":id" element={<UserProfile />} />
