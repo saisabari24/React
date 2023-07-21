@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FormErrors } from "./FormError";
 
-const Login = () => {
+const LoginNew = () => {
   // State variables for email, password, form errors, and form validity
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -96,4 +96,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginNew;
